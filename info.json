@@ -1,0 +1,78 @@
+{
+    "instrument": {
+        "id": "XTZ-BTC",
+        "exchange": "coinbasepro",
+        "status": "trading",
+        "exchange_info": {
+            "id": "XTZ-BTC",
+            "base_currency": "XTZ",
+            "quote_currency": "BTC",
+            "base_min_size": "1.00000000",
+            "base_max_size": "100000.00000000",
+            "quote_increment": "0.00000001",
+            "base_increment": "0.01000000",
+            "display_name": "XTZ/BTC",
+            "min_market_funds": "0.001",
+            "max_market_funds": "10",
+            "margin_enabled": false,
+            "post_only": false,
+            "limit_only": false,
+            "cancel_only": false,
+            "status": "online",
+            "status_message": ""
+        },
+        "base_asset": "XTZ",
+        "quote_asset": "BTC"
+    },
+    "base_asset": {
+        "id": "XTZ",
+        "precision": 6,
+        "exchange_info": {
+            "id": "XTZ",
+            "name": "Tezos",
+            "min_size": "0.000001",
+            "status": "online",
+            "message": "",
+            "details": {
+                "type": "crypto",
+                "symbol": "\u03a4",
+                "network_confirmations": 60,
+                "sort_order": 53,
+                "crypto_address_link": "https://tzscan.io/{{address}}",
+                "crypto_transaction_link": "https://tzscan.io/{{txId}}",
+                "push_payment_methods": [
+                    "crypto"
+                ],
+                "min_withdrawal_amount": 1
+            },
+            "max_precision": "0.000001"
+        }
+    },
+    "quote_asset": {
+        "id": "BTC",
+        "precision": 8,
+        "exchange_info": {
+            "id": "BTC",
+            "name": "Bitcoin",
+            "min_size": "0.00000001",
+            "status": "online",
+            "message": "",
+            "details": {
+                "type": "crypto",
+                "symbol": "\u20bf",
+                "network_confirmations": 6,
+                "sort_order": 20,
+                "crypto_address_link": "https://live.blockcypher.com/btc/address/{{address}}",
+                "crypto_transaction_link": "https://live.blockcypher.com/btc/tx/{{txId}}",
+                "push_payment_methods": [
+                    "crypto"
+                ],
+                "group_types": [
+                    "btc",
+                    "crypto"
+                ]
+            },
+            "max_precision": "0.00000001"
+        }
+    }
+}
